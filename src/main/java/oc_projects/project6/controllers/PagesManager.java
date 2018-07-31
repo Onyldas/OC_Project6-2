@@ -10,4 +10,19 @@ public class PagesManager {
     public String DisplayIndex(){
         return "index";
     }
+
+    @GetMapping("/listeSites")
+    public String DisplaySiteList(){
+        return "listeSites";
+    }
+
+    @GetMapping("/connexion")
+    public String DisplayConnexion(){
+        return "connexion";
+    }
+
+    @GetMapping("/inscription")
+    public String DisplayInscription(){
+        return "inscription";
+    }
 }

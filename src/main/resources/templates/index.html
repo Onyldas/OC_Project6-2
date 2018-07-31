@@ -9,7 +9,7 @@
     <body>
         <div class="container">
 
-            <%@ include file="includes/header.jsp" %>
+            <header th:insert="header"></header>
 
             <div class="row">
                 <img class="col-md-12 col-md-offset-0" src="/images/wallpaper.jpg" alt="Let\'s climb !" />
@@ -26,15 +26,13 @@
             <div class = "row">
                 <div class="col-md-4 boite">
                     <h3><a href="/sites">Liste des différents sites</a></h3>
-                    <p>
-                    Découvrez une liste exhaustive des différents sites/spots de plusieurs région en métropole et dans certains DOM français.
+                    <p>Découvrez une liste exhaustive des différents sites/spots de plusieurs région en métropole et dans certains DOM français.
                     </p>
                 </div>
 
                 <div class="col-md-4 boite">
                     <h3><a href="/topos">Faire décourvrir un site</a></h3>
-                    <p>
-                    Ici, vous pouvez voir les différents topos disponibles à l'emprunt ou leur date de disponibilité. N'hésitez pas à en emprunter un vous même grâce à un petit formulaire simple.
+                    <p>Ici, vous pouvez voir les différents topos disponibles à l'emprunt ou leur date de disponibilité. N'hésitez pas à en emprunter un vous même grâce à un petit formulaire simple.
                     </p>
                 </div>
             </div>
