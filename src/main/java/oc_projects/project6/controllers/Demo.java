@@ -1,6 +1,6 @@
 package oc_projects.project6.controllers;
 
-import oc_projects.project6.entity.Utilisateur;
+import oc_projects.project6.entities.Utilisateur;
 import oc_projects.project6.repositories.UtilisateurRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,7 +16,6 @@ public class Demo {
     private UtilisateurRepository utilisateurRepository;
 
 
-    @GetMapping("/")
     public String sayHello(@RequestParam(required= false, defaultValue = "World") String name, ModelMap modelmap){
         modelmap.put("name", name);
         return "HelloWorld";

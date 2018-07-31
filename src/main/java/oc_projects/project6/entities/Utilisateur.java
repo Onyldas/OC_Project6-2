@@ -1,4 +1,4 @@
-package oc_projects.project6.entity;
+package oc_projects.project6.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
